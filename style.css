@@ -1,0 +1,151 @@
+
+.body {
+    background-image:url('WebVisulization/Resources/assets/images/moving_background_2.gif');
+        height:850px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+/* Navbar */
+.navbar {
+max-height: 60px;
+background-color:#456980 ;
+}
+.navigation .navbar-brand {
+color: white;
+font-size: xx-large;
+    margin-left: 0px;
+    padding: inherit;
+font-weight: bold;
+    background-color:transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover {
+    background-color: white !important;
+}
+.dropdown-item {
+    color: #456980!important;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: gray !important;
+}
+
+.nav-link:hover {
+    background-color:#E7E7E7 !important;
+    }
+
+.navbar-brand:hover {
+color: !important;
+}
+
+a {
+    color: #E7E7E7;
+    font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Images */
+img{
+    width:100% !important;
+    height:100% !important;
+}
+.active, .panel:hover {
+    border-color:#213159;
+    border-style: solid;
+    
+}
+.vizualization {
+    width: 349px !important;
+    height: 241px !important;
+}
+
+.float-left {
+padding-right: inherit!important;
+}
+
+/* Title */
+.title {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+/* Paragraph */
+p {
+color: black;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 15px;
+}
+
+/* Box */
+.box {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px;
+border-radius: 25px;
+background-color:#456980;
+
+}
+/* Table */
+.table {
+    font-size: 15px;
+    border-top-color: white !important;
+}
+
+/* Footer */
+footer {
+background-color: white;
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color:white;
+color: black;
+min-height: 60px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 12px;
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 15px;
+}
+
+
+/* Media Queries */
+@media(max-width: 992px) {
+    .navbar-expand-lg {
+    background-color: white !important;
+    }
+    .navbar {
+    background-color:#456980;
+    max-height: none;
+    padding: inherit;
+    }
+    .navbar div {
+    margin: inherit;
+    background-color: white;
+    }
+    .navbar-brand {
+    padding: 10px !important;
+    }
+    button{
+    margin-right: 30px;
+    }
+    button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+}
+.navigation .navbar-brand {
+    color: #456980;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    }
+
